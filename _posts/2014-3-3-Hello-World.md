@@ -12,4 +12,4 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 i shall be flying to singapore on the 13th june
 
 
-![profile pic]({{ site.baseurl }}/images/gitHubAvatar.png)
+![_config.yml]({{ site.baseurl }}/images/gitHubAvatar.png)
