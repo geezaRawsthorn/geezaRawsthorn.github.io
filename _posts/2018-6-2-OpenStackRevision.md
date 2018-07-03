@@ -3,7 +3,7 @@ layout: post
 title: OpenStack Training
 ---
 
-Commands
+<u>OpenStack commands</u>
 
 - openstack stack list (deployed stacks in your tennancy)
 - openstack flavor list -- show potential flavours.
