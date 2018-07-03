@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SINT OpenStack Deployment
+title: SINT OpenStack Deployment Brief
 ---
 
 Openstack credentials - grawsthorn@ukcloud.com -p black dog 0909
