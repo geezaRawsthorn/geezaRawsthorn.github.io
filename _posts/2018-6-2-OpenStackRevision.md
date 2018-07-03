@@ -12,6 +12,16 @@ Commands
 References / Tutorials
 
 https://www.stratoscale.com/blog/openstack/best-practices-openstack-heat-templates/
+Portal Yaml contains:
+  - OS::Neutron::SecurityGroup * 2 -- 1 for tcp 1 for HTTPS
+  - OS::Neutron::Subnet -- defines portal subnet
+  - OS::Neutron::RouterInterface
+  - OS::Neutron::Port * 3 ?
+  - OS::Neutron::Port -- HA PROXY
+  - OS::Neutron::Port -- db port
+  - OS::Nova::Server * 3 portal web servers
+  - OS::Nova::Server * 1 db servers
+  - OS::Nova::Server * Ha Proxy
 
 OS::Neutron::SecurityGroup
 
@@ -20,7 +30,7 @@ A resource for managing Neutron security groups. Security groups are sets of IP 
 ![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-07-03 at 16.00.13.png)
 
 
-OS::Neutron::Subnet¶
+OS::Neutron::Subnet
 A resource for managing Neutron subnets.
 
 A subnet represents an IP address block that can be used for assigning IP addresses to virtual instances. Each subnet must have a CIDR and must be associated with a network. IPs can be either selected from the whole subnet CIDR, or from “allocation pools” that can be specified by the user.
