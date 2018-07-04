@@ -2,6 +2,7 @@
 layout: post
 title: OpenStack with Heat templates
 ---
+![_config.yml]({{ site.baseurl }}/images/o-s.png)
 
 <u>OpenStack commands</u>
 
