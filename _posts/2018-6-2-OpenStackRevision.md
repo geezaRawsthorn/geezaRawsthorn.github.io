@@ -6,9 +6,9 @@ title: OpenStack with Heat templates
 
 <u>OpenStack commands</u>
 
-- openstack stack list (deployed stacks in your tennancy)
-- openstack flavor list -- show potential flavours.
-- openstack image list -- show list of images.
+  - openstack stack list (deployed stacks in your tennancy)
+  - openstack flavor list -- show potential flavours.
+  - openstack image list -- show list of images.
 
 References / Tutorials
 
