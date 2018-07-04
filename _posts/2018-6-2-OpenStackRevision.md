@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenStack Training
+title: OpenStack with Heat templates
 ---
 
 <u>OpenStack commands</u>
@@ -12,7 +12,8 @@ title: OpenStack Training
 References / Tutorials
 
 https://www.stratoscale.com/blog/openstack/best-practices-openstack-heat-templates/
-Portal Yaml contains:
+
+Portal deployment includes:
   - OS::Neutron::SecurityGroup * 2 -- 1 for tcp 1 for HTTPS
   - OS::Neutron::Subnet -- defines portal subnet
   - OS::Neutron::RouterInterface
