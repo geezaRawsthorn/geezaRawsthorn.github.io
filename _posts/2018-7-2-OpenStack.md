@@ -3,10 +3,6 @@ layout: post
 title: SINT OpenStack Deployment Brief
 ---
 
-Openstack credentials - grawsthorn@ukcloud.com -p black dog 0909
-
-things to download.
-
 - pip install python-heatclient
 - pip install openstackcli
 
@@ -33,3 +29,4 @@ SINT
   - openstack heat
   - Ansible
   - rsyslogss
+-----------------
