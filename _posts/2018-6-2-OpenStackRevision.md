@@ -10,8 +10,8 @@ title: OpenStack with Heat templates
   - openstack flavor list -- show potential flavours.
   - openstack image list -- show list of images.
 
-References / Tutorials
 
+<u>References / Tutorials</u>
 https://www.stratoscale.com/blog/openstack/best-practices-openstack-heat-templates/
 
 Portal deployment includes:
